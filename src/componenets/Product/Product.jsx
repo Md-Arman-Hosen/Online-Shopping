@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Product = (props) => {
-    // eslint-disable-next-line react/prop-types
     const { name, price, seller, ratings, img } = props.product;
     const handleAddToCard= props.handleAddToCard;
 
